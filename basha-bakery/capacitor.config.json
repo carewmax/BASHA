@@ -1,0 +1,8 @@
+{
+  "appId": "com.basha.bakery",
+  "appName": "Basha",
+  "webDir": "dist",
+  "android": {
+    "backgroundColor": "#111111"
+  }
+}
