@@ -1,0 +1,22 @@
+{
+  "name": "basha-bakery-restaurant",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Website for Basha Bakery & Restaurant — React + TypeScript, builds to a single deployable index.html",
+  "type": "module",
+  "scripts": {
+    "dev": "node build.mjs --serve",
+    "build": "node build.mjs",
+    "preview": "node build.mjs --serve --no-watch"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "esbuild": "^0.25.0",
+    "typescript": "^5.6.0"
+  }
+}
